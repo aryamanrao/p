@@ -286,7 +286,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Data Warehouse Architect and Analytics Strategist",
+      role: "Senior Data Engineer",
       company: "University of Illinois at Chicago",
       companylogo: require("./assets/images/uic.png"),
       date: "Sept 2022 – Present",
@@ -299,14 +299,14 @@ const workExperiences = {
       role: "Senior Data Engineer",
       company: "Nekthan Gamming",
       companylogo: require("./assets/images/download (2).png"),
-      date: "Apr 2021 – June 2022",
+      date: "Apr 2021 – July 2022",
       descBullets: [
         "Orchestrated the migration of legacy data systems to Amazon Redshift, ensuring seamless integration and minimal disruption to ongoing operations, resulting in a streamlined and centralized data architecture.",
         "Spearheaded the development and implementation of robust data governance policies and procedures, ensuring compliance with industry regulations such as GDPR and CCPA, while fostering a culture of data-driven decision-making and innovation within the organization."
       ]
     },
     {
-      role: "Data Engineer",
+      role: "Data Engineer - 3",
       company: "Markov Technologies",
       companylogo: require("./assets/images/markov_research_and_analytics_services_opc_pvt_ltd_cover.jfif"),
       date: "Jul 2019 – Mar 2021",

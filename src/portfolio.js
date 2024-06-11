@@ -296,7 +296,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Senior Data Engineer",
+      role: "Lead Data Engineer",
       company: "Nekthan Gamming",
       companylogo: require("./assets/images/download (2).png"),
       date: "Apr 2021 – July 2022",

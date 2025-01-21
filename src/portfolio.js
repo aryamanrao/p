@@ -20,20 +20,20 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Aryaman Rao",
-  title: "Hi all, I'm Aryaman Rao",
+  username: "Aryaman Nagineni",
+  title: "Hi all, I'm Aryaman Nagineni",
   subTitle: emoji(
-    "Enthusiastic Data Architect 📊 adept at sculpting comprehensive data ecosystems, from collection to visualization, leveraging tools such as Python, Java, C++, SQL, Apache Spark, and cutting-edge data engineering methodologies. Passionate about crafting actionable insights and driving informed decisions through the power of data."
+    "Enthusiastic Data Engineer📊 adept at sculpting comprehensive data ecosystems, from collection to visualization, leveraging tools such as Python, Java, C++, SQL, Apache Spark, and cutting-edge data engineering methodologies. Passionate about crafting actionable insights and driving informed decisions through the power of data."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1QM5d7pBycazmncGePGCGole53RFVSmqn/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1GN7phM3iCUWH1ngndgby_XE7ZDKKO-bu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 const socialMediaLinks = {
   github: "https://github.com/aryamanrao",
-  gmail: "aryamanrao18@gmail.com",
+  gmail: "aryamanrao36@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -43,7 +43,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Adventurous Data Engineer 🚀 on a mission to conquer every data technology stack imaginable! From wrangling data with Python and SQL to soaring through the cloud with Apache Spark and beyond, I thrive on pushing the boundaries of what's possible in the world of data engineering. Let's dive deep into the data cosmos and uncover new frontiers together!",
+  subTitle: ""Innovative Data Engineer | Expert in Scalable Cloud Solutions, Real-Time Data Workflows, and Advanced Analytics"",
   skills: [
     emoji(
       "⚡ Expertise in designing and deploying robust data pipelines using Python, SQL, Apache Airflow, and AWS services, ensuring efficient and reliable data processing."
@@ -255,11 +255,11 @@ const techStack = {
     },
 
     {
-      Stack: "Backend",
+      Stack: "Big Data & ETL Frameworks: Apache Kafka, Apache Spark, PySpark, Apache Airflow, Talend, Apache NiFi",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Programming- Python, SQL, Scala, Java",
       progressPercentage: "70%"
     },
     {
@@ -274,7 +274,32 @@ const techStack = {
     {
       Stack:  "Expertise in containerization technologies like Docker and container orchestration platforms like Kubernetes for deploying and managing data-intensive applications in scalable and portable environments.",
       progressPercentage: "75%"
-    }
+    },
+    {
+      Stack: "Data Visualization & Reporting: Tableau, Power BI, Looker",
+      progressPercentage: "90"
+    },
+    {
+      Stack:  "Google Cloud Platform (BigQuery, Dataflow, Dataproc).",
+      progressPercentage: "85%"
+    },
+    {
+      Stack:  "Azure Cloud Platform",
+      progressPercentage: "75%"
+    },
+    {
+      Stack:  "Azure Cloud Database & Warehousing: Skilled in Snowflake, Amazon Redshift, Google BigQuery, PostgreSQL, MongoDB, and Cassandra for data storage and querying.",
+      progressPercentage: "75%"
+    },
+    {
+      Stack:  "Machine Learning & Analytics: Familiar with TensorFlow, Keras, Python libraries (Pandas, NumPy), and predictive analytics tools for advanced analytics and ML projects. Cloud Database & Warehousing: Skilled in Snowflake, Amazon Redshift, Google BigQuery, PostgreSQL, MongoDB, and Cassandra for data storage and querying.",
+      progressPercentage: "65%"
+    },
+    {
+      Stack:  "Data Governance & Security: Experience with Apache Atlas, AWS Lake Formation, and AWS KMS for compliance with GDPR, HIPAA, and data encryption. Learning & Analytics: Familiar with TensorFlow, Keras, Python libraries (Pandas, NumPy), and predictive analytics tools for advanced analytics and ML projects. Cloud Database & Warehousing: Skilled in Snowflake, Amazon Redshift, Google BigQuery, PostgreSQL, MongoDB, and Cassandra for data storage and querying.",
+      progressPercentage: "95%"
+    },
+
 
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -286,18 +311,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Data Engineer",
-      company: "University of Illinois at Chicago",
-      companylogo: require("./assets/images/uic.png"),
-      date: "Sept 2022 – Present",
+      role: " Senior Data Engineer",
+      company: "Planstin Administration",
+      companylogo: require("./assets/images/Planstin-vertical-onwhite.png"),
+      date: "July 2024 – Present",
       descBullets: [
         "Orchestrated a comprehensive overhaul of data infrastructure leveraging Amazon Redshift and Snowflake, resulting in a 35% enhancement in query efficiency and a 50% augmentation in analytics capacity, thereby empowering the organization with robust, scalable data capabilities.",
         "Spearheaded a transformative shift in ETL processes by integrating Apache Airflow, culminating in a remarkable 40% reduction in processing times and a 60% improvement in data integrity through automated checks, solidifying analytics reliability and elevating insight quality to new heights."
       ]
     },
     {
-      role: "Lead Data Engineer",
-      company: "Nekthan Gamming",
+      role: "Data Engineer",
+      company: "University of Illinois, Department of Healthcare",
+      companylogo: require("./assets/images/uic.png"),
+      date: "Oct 2022 – June 2024",
+      descBullets: [
+        "Orchestrated a comprehensive overhaul of data infrastructure leveraging Amazon Redshift and Snowflake, resulting in a 35% enhancement in query efficiency and a 50% augmentation in analytics capacity, thereby empowering the organization with robust, scalable data capabilities.",
+        "Spearheaded a transformative shift in ETL processes by integrating Apache Airflow, culminating in a remarkable 40% reduction in processing times and a 60% improvement in data integrity through automated checks, solidifying analytics reliability and elevating insight quality to new heights."
+      ]
+    },
+    {
+      role: "Data Engineer-3",
+      company: "Launchship Technologies Solution",
       companylogo: require("./assets/images/download (2).png"),
       date: "Apr 2021 – July 2022",
       descBullets: [
@@ -306,7 +341,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Data Engineer - 3",
+      role: "Data and ETL Engineer",
       company: "Markov Technologies",
       companylogo: require("./assets/images/markov_research_and_analytics_services_opc_pvt_ltd_cover.jfif"),
       date: "Jul 2019 – Mar 2021",

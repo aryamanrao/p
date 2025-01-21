@@ -43,7 +43,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: ""Innovative Data Engineer | Expert in Scalable Cloud Solutions, Real-Time Data Workflows, and Advanced Analytics"",
+  subTitle: "Innovative Data Engineer - Expert in Scalable Cloud Solutions, Real-Time Data Workflows, and Advanced Analytics",
   skills: [
     emoji(
       "⚡ Expertise in designing and deploying robust data pipelines using Python, SQL, Apache Airflow, and AWS services, ensuring efficient and reliable data processing."
